@@ -1,2 +1,2 @@
 # projetos-da-alura
-Conteúdos dos cursos de programação da alura 
+Projetos feitos nos cursos de programação da alura
