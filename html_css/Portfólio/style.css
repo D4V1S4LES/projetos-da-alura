@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
-
+ 
 body {
   display: flex;
   align-items: center;
@@ -37,32 +37,42 @@ img {
 }
 
 .apresentacao-conteudo-titulo {
-  font-size: 36px;
+  font-size: 24px;
   font-family: krona one, sans-serif;
 }
 
 .apresentacao-conteudo-paragrafo, a {
-  font-size: 24px;
+  font-size: 16px;
   font-family: Montserrat, sans-serif;
 }
 
 .apresentacao-conteudo-botao {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 20px;
+}
+
+.apresentacao-conteudo-botao-subtitulo {
+  font-family: krona one, sans-serif;
+  color: #f6f6f6;
+  font-size: 16px;
 }
 
 .apresentacao-conteudo-botao-link {
-  color:#000000;
-  background-color: #22D4FD;
+  color:#f6f6f6;
+  border: 2px solid #22D4FD;
+  /* background-color: #22D4FD; */
   width: 280px;
-  padding: 21.5px 0;
-  border-radius: 16px;
+  padding: 15px 0;
+  border-radius: 8px;
   text-align: center;
 }
 
 .apresentacao-conteudo-botao-link:hover {
-  background-color: #1daac9;
+  background-color: #22D4FD;
+  color: #000000;
   cursor: pointer;
   transition: 0.5s;
 }
