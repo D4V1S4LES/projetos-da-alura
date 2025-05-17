@@ -1,78 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
- 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* height: 100vh; */
   background-color: #000000;
+  box-sizing: border-box;
 }
 
-p, h1 {
-  color: #F6F6F6;
+.header {
+  margin: 0px 10% 3% 10%;
+  display: flex;
+  gap: 80px;
+  margin-top: 2%;
 }
 
-img {
-  height: 488px;
-  border-radius: 6px;
-}
-
-.titulo-destaque {
+.header a {
+  font-family: Montserrat, sans-serif;
   color: #22D4FD;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .apresentacao {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+  gap: 30px;
+  margin: 0 10%;
 }
 
 .apresentacao-conteudo {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 615px;
 }
 
 .apresentacao-conteudo-titulo {
-  font-size: 24px;
-  font-family: krona one, sans-serif;
+  color: #f6f6f6;
+  font-size: 30px;
+  font-family: Krona one, sans-serif;
 }
 
-.apresentacao-conteudo-paragrafo, a {
-  font-size: 16px;
+.apresentacao-conteudo-titulo > strong {
+  color: #22D4FD;
+}
+
+.apresentacao-conteudo-paragrafo {
+  color: #f6f6f6;
   font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+.apresentacao-conteudo-paragrafo > strong {
+  color: #22D4FD;
 }
 
 .apresentacao-conteudo-botao {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
 }
 
 .apresentacao-conteudo-botao-subtitulo {
-  font-family: krona one, sans-serif;
+  font-family: Krona one, sans-serif;
+  font-size: 20px;
   color: #f6f6f6;
-  font-size: 16px;
 }
 
 .apresentacao-conteudo-botao-link {
-  color:#f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
   border: 2px solid #22D4FD;
-  /* background-color: #22D4FD; */
-  width: 280px;
-  padding: 15px 0;
-  border-radius: 8px;
-  text-align: center;
+  color: #f6f6f6;
+  gap: 10px;
+  width: 200px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
 }
 
-.apresentacao-conteudo-botao-link:hover {
-  background-color: #22D4FD;
+.foto {
+  max-height: 480px;
+  border-radius: 8px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 50px;
   color: #000000;
-  cursor: pointer;
-  transition: 0.5s;
+  background-color: #22D4FD;
+  font-family: Montserrat, sans-serif;
 }
