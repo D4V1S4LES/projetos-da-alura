@@ -49,8 +49,12 @@ main {
   grid-column: 2;
 }
 
-.lista li {
+.lista li:not(:last-child) {
   padding: 0 15px 15px ;
+}
+
+.lista li:last-child {
+  padding: 0 15px;
 }
 
 .lista li > h3{
