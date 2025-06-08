@@ -1,0 +1,32 @@
+.main {
+  padding: 3% 15%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 90px;
+}
+
+.main img {
+  height: 450px;
+  border-radius: 6px;
+}
+
+.curriculo, .experiencia {
+  margin-bottom: 40px;
+}
+
+.curriculo-titulo, .curriculo-texto {
+  margin-bottom: 15px;
+}
+
+.lista-subtitulo {
+  margin-bottom: 15px;
+}
+
+li {
+  padding-left: 10px;
+}
+
+li:not(last-child){
+  margin-bottom: 15px;
+}
+

@@ -2,7 +2,7 @@
   display: flex;
   gap: 90px;
   padding: 3% 15%;
-}
+} 
 
 .apresentacao-conteudo {
   display: flex;
@@ -11,6 +11,34 @@
 }
 
 .foto {
-  max-width: 480px;
+  max-height: 450px;
   border-radius: 6px;
+}
+
+.apresentacao-conteudo-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.apresentacao-conteudo-botao-link {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 13px 20px;
+  width: 240px;
+  border-radius: 8px;
+  border: 1px solid var(--cor-preto);
+}
+
+.apresentacao-conteudo-botao-link img {
+  width: 30px;
+  height: 30px;
+}
+
+.apresentacao-conteudo-botao-link:hover {
+  background-color: var(--cor-cinza);
+  transition: 0.5s;
+  border-color: var(--cor-cinza);
 }

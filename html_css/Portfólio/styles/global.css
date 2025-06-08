@@ -6,6 +6,7 @@
   --cor-preto: #080808;
   --cor-branco: #f6f6f6;
   --cor-azul: #22D4FD;
+  --cor-cinza: #272727;
 
   --titulo-font: Krona one, sans-serif;
   --texto-font: Montserrat, sans-serif;
@@ -16,7 +17,8 @@
 }
 
 .header {
-  margin: 1% 15%;
+  margin: 0 15%;
+  margin-top: 1.5%;
   display: flex;
   gap: 60px;
 }
@@ -50,6 +52,12 @@
 .titulo {
   color: var(--cor-branco);
   font-size: var(--titulo);
+  font-family: var(--titulo-font);
+}
+
+.subtitulo {
+  color: var(--cor-branco);
+  font-size: var(--subtitulo);
   font-family: var(--titulo-font);
 }
 
