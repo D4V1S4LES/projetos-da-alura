@@ -1,0 +1,47 @@
+.apresentacao {
+  display: flex;
+  gap: 90px;
+  padding: 3% 15%;
+} 
+
+.apresentacao-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.foto {
+  max-height: 450px;
+  border-radius: 6px;
+}
+
+.apresentacao-conteudo-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.apresentacao-conteudo-botao-link {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 20px;
+  width: 240px;
+  border-radius: 8px;
+  border: 2px solid var(--cor-azul);
+}
+
+.apresentacao-conteudo-botao-link img {
+  justify-self: end;
+  width: 30px;
+  height: 30px;
+}
+
+.apresentacao-conteudo-botao-link:hover {
+  background-color: var(--cor-cinza);
+  transition: 0.3s;
+  border-color: var(--cor-cinza);
+}

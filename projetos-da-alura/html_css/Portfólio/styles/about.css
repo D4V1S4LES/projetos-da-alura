@@ -1,0 +1,16 @@
+ .main {
+  padding: 3% 15%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+ }
+
+ .main img {
+  height: 450px;
+  border-radius: 6px;
+ }
+
+ .about-titulo, .about-texto {
+  margin-bottom: 15px;
+ }
+
