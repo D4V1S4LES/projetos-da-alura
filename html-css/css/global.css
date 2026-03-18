@@ -7,10 +7,15 @@
   --texto-medio: 24px;
   --texto-pequeno: 18px;
 
-  --cor-primaria: #000000;
+  /* --cor-primaria: #000000;
   --cor-secundaria: #f6f6f6;
   --cor-terciaria: #22d4fd;
-  --cor-quaternaria: #272727;
+  --cor-quaternaria: #272727; */
+
+  --cor-primaria: #ffeac5;
+  --cor-secundaria: #603f26;
+  --cor-terciaria: #6c4e31;
+  --cor-quaternaria: #ffdbb5;
 }
 
 .titulo {
@@ -46,6 +51,12 @@
   font-size: var(--texto-pequeno);
   color: var(--cor-terciaria);
   font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+
+.cabecalho-menu-link:hover {
+  border-color: var(--cor-terciaria);
+  transition: 0.5s;
 }
 
 .footer {
@@ -56,4 +67,11 @@
   color: var(--cor-quaternaria);
   text-align: center;
   padding: 20px 0px;
+}
+
+.imagem {
+  border-radius: 16px;
+  max-width: 300px;
+  max-height: 500px;
+  border: 1px solid var(--cor-terciaria);
 }

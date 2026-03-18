@@ -3,7 +3,7 @@
 @import url(./global.css);
 
 body {
-  background-color: #000000;
+  background-color: var(--cor-primaria);
 }
 
 .conteudo {
@@ -16,29 +16,5 @@ body {
 }
 
 .titulo {
-  font-family: krona one;
-  font-size: 32px;
-  color: #f6f6f6;
   padding-bottom: 5%;
-}
-
-.paragrafo {
-  font-family: Montserrat;
-  font-size: 18px;
-  color: #f6f6f6;
-}
-
-.footer {
-  font-family: Montserrat;
-  font-size: 18px;
-  display: block;
-  background-color: #22d4fd;
-  color: #272727;
-  text-align: center;
-  padding: 20px 0px;
-}
-
-.imagem {
-  max-height: 500px;
-  border-radius: 16px;
 }
