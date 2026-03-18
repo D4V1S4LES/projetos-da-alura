@@ -3,9 +3,10 @@
 :root {
   --font-primaria: Krona one;
   --font-secundaria: Montserrat;
-  --texto-grande: 32px;
-  --texto-medio: 24px;
-  --texto-pequeno: 18px;
+  --texto-grande: 2rem;
+  --texto-medio: 1.5rem;
+  --texto-pequeno: 1.12rem;
+  --texto-muito-pequeno: 0.85rem;
 
   /* --cor-primaria: #000000;
   --cor-secundaria: #f6f6f6;
@@ -66,12 +67,13 @@
   background-color: var(--cor-terciaria);
   color: var(--cor-quaternaria);
   text-align: center;
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .imagem {
-  border-radius: 16px;
-  max-width: 300px;
-  max-height: 500px;
+  border-radius: 1rem;
+  /* max-width: 18.75rem;
+  max-height: 31.25rem; */
+  width: 28%;
   border: 1px solid var(--cor-terciaria);
 }

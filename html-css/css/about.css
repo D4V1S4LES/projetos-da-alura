@@ -11,10 +11,45 @@ body {
   justify-content: space-between;
   padding: 5% 15%;
   gap: 10%;
-  align-items: center;
+  align-items: start;
   text-align: justify;
 }
 
-.titulo {
-  padding-bottom: 5%;
+.paragrafo {
+  padding-top: 5%;
+}
+
+@media (max-width: 1200px) {
+  .conteudo {
+    align-items: center;
+    padding: 5% 10%;
+  }
+  .cabecalho {
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cabecalho-menu {
+    gap: 15%;
+  }
+  .cabecalho {
+    padding-top: 5%;
+  }
+  .conteudo {
+    padding: 8% 10% 10% 10%;
+  }
+  .imagem {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .titulo {
+    padding-top: 10%;
+    padding-bottom: 7%;
+  }
+  .paragrafo {
+    padding-bottom: 7%;
+  }
 }
