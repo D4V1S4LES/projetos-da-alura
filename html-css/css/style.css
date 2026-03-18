@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(global.css);
 
 body {
   background-color: #000000;
@@ -79,14 +80,4 @@ strong {
 .imagem {
   max-height: 500px;
   border-radius: 16px;
-}
-
-.footer {
-  font-family: Montserrat;
-  font-size: 18px;
-  display: block;
-  background-color: #22d4fd;
-  color: #272727;
-  text-align: center;
-  padding: 20px 0px;
 }

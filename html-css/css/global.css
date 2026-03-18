@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+:root {
+  --font-primaria: Krona one;
+  --font-secundaria: Montserrat;
+  --texto-grande: 32px;
+  --texto-medio: 24px;
+  --texto-pequeno: 18px;
+
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+  --cor-quaternaria: #272727;
+}
+
+.titulo {
+  font-family: var(--font-primaria);
+  font-size: var(--texto-grande);
+  color: var(--cor-secundaria);
+}
+
+.subtitulo {
+  font-family: var(--font-secundaria);
+  font-size: var(--texto-medio);
+  color: var(--cor-secundaria);
+}
+
+.paragrafo {
+  font-family: var(--font-secundaria);
+  font-size: var(--texto-pequeno);
+  color: var(--cor-secundaria);
+}
+
+.cabecalho {
+  padding-top: 2%;
+  padding-left: 15%;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 8%;
+}
+
+.cabecalho-menu-link {
+  font-family: var(--font-secundaria);
+  font-size: var(--texto-pequeno);
+  color: var(--cor-terciaria);
+  font-weight: 600;
+}
+
+.footer {
+  font-family: var(--font-secundaria);
+  font-size: var(--texto-pequeno);
+  display: block;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-quaternaria);
+  text-align: center;
+  padding: 20px 0px;
+}
