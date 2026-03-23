@@ -1,0 +1,151 @@
+body {
+  background-color: var(--cor-bg);
+  font-family: Inter, sans-serif;
+  color: var(--cor-primaria);
+}
+
+.container {
+  height: 100vh;
+  align-content: center;
+  /* background-color: aqua; */
+}
+
+.subtitulo {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.paragrafo {
+  font-size: 1rem;
+  color: var(--cor-secundaria);
+}
+
+.introducao-bg {
+  background-image: url(assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.introducao-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 40%;
+  padding: 0rem 5rem;
+  gap: 1.5rem;
+
+  color: var(--cor-primaria);
+  text-align: center;
+
+  /* border: 1px solid #fff; */
+}
+
+.introducao-conteudo h1 {
+  font-size: 2rem;
+}
+
+.introducao-conteudo img {
+  max-width: 60%;
+  padding: 1rem 0rem;
+}
+
+.introducao-conteudo-link {
+  background-color: var(--cor-terciaria);
+  width: 80%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--cor-terciaria);
+}
+
+.introducao-conteudo-link:hover {
+  background-color: #1160c0;
+  border-color: #1160c0;
+  transition: 0.3s;
+}
+
+#introducao-link {
+  background-color: transparent;
+  border: 1px solid var(--cor-primaria);
+}
+
+#introducao-link:hover {
+  background-color: #1a1919;
+  border-color: #1a1919;
+  transition: 0.3s;
+}
+
+.introducao-conteudo p {
+  color: var(--cor-secundaria);
+  font-size: 0.7rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  /* gap: 1rem; */
+  /* padding: 0rem 10rem; */
+  max-width: 75%;
+  margin: auto;
+  justify-content: center;
+}
+
+.telas {
+  gap: 4rem;
+  /* max-width: 85%; */
+}
+
+.telas p {
+  padding-bottom: 3rem;
+  font-size: 1.2rem;
+}
+
+.telas a {
+  background-color: var(--cor-terciaria);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--cor-terciaria);
+}
+
+.telas a:hover {
+  background-color: #1160c0;
+  border-color: #1160c0;
+  transition: 0.3s;
+}
+
+.dispositivos {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.dispositivos-grid {
+  display: grid;
+  grid-row: 2;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dispositivos-grid p {
+  font-size: 1.5rem;
+}
+
+.footer {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a:hover {
+  color: var(--cor-terciaria);
+  transition: 0.3s;
+}
