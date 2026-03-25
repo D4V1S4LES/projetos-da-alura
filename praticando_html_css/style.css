@@ -118,6 +118,7 @@ body {
   border-color: #1160c0;
   transition: 0.3s;
 }
+/* Usar flexbox com listas para refazer essa parte dos dispositivos */
 
 .dispositivos {
   display: grid;
@@ -142,6 +143,8 @@ p {
   text-align: center;
 }
 
+/* Usar listas no rodapé para fazer os links */
+
 .footer {
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -158,6 +161,10 @@ p {
 .footer-links a:hover {
   color: var(--cor-terciaria);
   transition: 0.3s;
+}
+
+.footer-links a:active {
+  color: aqua;
 }
 
 @media (max-width: 1100px) {

@@ -1,0 +1,63 @@
+@import url(../global.css);
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+
+  width: 428px;
+  justify-content: space-between;
+  background: var(--cor-branco);
+}
+
+.cabecalho__menu {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.cabecalho__menu__hamburguer {
+  display: block; /* Coloquei display block para o menu hamburguer aparecer dentro da label, pq ele perde a propriedade flex*/
+  background-image: url(../assets/Menu.svg);
+  width: 3rem;
+  height: 3rem;
+}
+
+.cabecalho__navegacao {
+  display: flex;
+  padding: 1rem;
+}
+
+.cabecalho__menu__suspenso {
+  display: none;
+  background-color: var(--cor-branco);
+}
+
+.cabecalho__menu__checkbox {
+  display: none;
+}
+
+.cabecalho__menu__checkbox:checked ~ .cabecalho__menu__suspenso {
+  display: grid;
+  padding: 2rem 6rem 2rem 2rem;
+  gap: 2rem;
+  position: absolute;
+  top: 100%;
+  left: 0rem;
+}
+
+.cabecalho__menu__suspenso__titulo {
+  color: var(--cor-amarelo);
+  font-weight: bold;
+}
+
+.cabecalho__menu__suspenso__link {
+  color: #002f52;
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s cubic-bezier(0.25, 1.46, 0.45, 0.94);
+}
+
+.cabecalho__menu__suspenso__link:hover {
+  border-bottom: 1px solid #002f52;
+  transition: 0.3s;
+}
