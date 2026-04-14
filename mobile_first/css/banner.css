@@ -6,7 +6,7 @@
 
 .introducao {
   box-sizing: border-box;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1.5rem;
   background: #002f52;
   color: var(--cor-branco);
   justify-items: center;
@@ -15,17 +15,20 @@
 
 .introducao h2 {
   font-size: 18px;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   font-weight: bold;
 }
 
 .introducao p {
   font-size: 16px;
   max-width: 30ch;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .introducao__pesquisa {
+  background: #002f52;
+  color: var(--cor-branco);
+  font-size: 14px;
   display: flex;
   border: 1px solid var(--cor-branco);
   padding: 1rem;
@@ -35,6 +38,22 @@
   justify-content: center;
   box-sizing: border-box;
   width: 380px;
+  position: relative;
+}
+
+.introducao__pesquisa::placeholder {
+  font-size: 14px;
+  color: var(--cor-branco);
+  font-weight: regular;
+  text-align: center;
+  font-family: Poppins;
+  padding-left: 1.5rem;
+  background: url(../assets/Pesquisa.svg) no-repeat;
+  background-position: 2rem;
+}
+
+.introducao__pesquisa:focus {
+  color: var(--cor-branco);
 }
 
 .introducao__pesquisa p {
