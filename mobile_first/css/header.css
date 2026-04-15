@@ -53,12 +53,12 @@
 }
 
 .cabecalho__menu__suspenso__link {
-  color: #002f52;
+  color: var(--cor-azul);
   border-bottom: 1px solid transparent;
   transition: all 0.5s cubic-bezier(0.25, 1.46, 0.45, 0.94);
 }
 
 .cabecalho__menu__suspenso__link:hover {
-  border-bottom: 1px solid #002f52;
+  border-bottom: 1px solid var(--cor-azul);
   transition: 0.3s;
 }

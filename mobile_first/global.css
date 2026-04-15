@@ -1,5 +1,6 @@
 @import url(css/header.css);
 @import url(css/banner.css);
+@import url(css/carrosel.css);
 
 :root {
   --cor-cinza-claro: #ebecee;
@@ -7,7 +8,7 @@
   --cor-preto: #000000;
   --cor-amarelo: #eb9b00;
   --cor-cinza-escuro: #858585;
-  --cor-azul: linear-gradient(180deg, #002f52 0%, #326589 100%);
+  --cor-azul: #002f52;
 }
 
 * {

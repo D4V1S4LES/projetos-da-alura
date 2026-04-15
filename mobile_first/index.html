@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +43,48 @@
       <p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
       <input class="introducao__pesquisa" type="search" placeholder="Qual será sua próxima leitura?">
     </section>
+    <section class="secao carrosel">
+      <h2 class="carrosel__titulo">Últimos Lançamentos</h2>
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="assets/ApacheKafka.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/Liderança.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/Gestão.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/MetricasAgeis.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/ApacheKafka.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/Liderança.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/Gestão.png" alt=""></div>
+          <div class="swiper-slide"><img src="assets/MetricasAgeis.png" alt=""></div>
+          ...
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      speed: 400,
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+
+  </script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
 .introducao {
   box-sizing: border-box;
   padding: 2rem 1.5rem;
-  background: #002f52;
+  background: var(--cor-azul);
   color: var(--cor-branco);
   justify-items: center;
   text-align: center;
@@ -26,7 +26,7 @@
 }
 
 .introducao__pesquisa {
-  background: #002f52;
+  background: var(--cor-azul);
   color: var(--cor-branco);
   font-size: 14px;
   display: flex;
