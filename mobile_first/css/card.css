@@ -1,0 +1,59 @@
+.card {
+  padding: 2.5rem 1.2rem;
+  box-sizing: border-box;
+}
+
+.card__container {
+  padding: 1.2rem;
+  box-sizing: border-box;
+  background-color: var(--cor-branco);
+  border-radius: 10px;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card__descricao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 0.5rem;
+  justify-items: center;
+}
+
+.card__conteudo {
+  gap: 0.5rem;
+  display: grid;
+  /* background-color: aqua; */
+  text-align: left;
+}
+
+.card__titulo {
+  color: var(--cor-amarelo);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card__subtitulo {
+  color: var(--cor-azul);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card__texto {
+  font-size: 14px;
+}
+
+.card__icones {
+  display: flex;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+
+.card__botao {
+  background-color: var(--cor-amarelo);
+  width: 162px;
+  text-align: center;
+  padding: 1rem 0rem;
+  color: var(--cor-branco);
+  font-weight: bold;
+}
