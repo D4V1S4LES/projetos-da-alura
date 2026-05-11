@@ -1,0 +1,31 @@
+.topicos {
+  background: var(--cor-azul);
+  color: var(--cor-branco);
+  padding: 2rem 1rem;
+  justify-items: center;
+  /* width: 428px; */
+  box-sizing: border-box;
+}
+
+.topicos h2 {
+  padding-bottom: 2rem;
+}
+
+.topicos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 1rem;
+}
+
+.topicos__lista__item {
+  background-color: var(--cor-amarelo);
+  text-align: center;
+  align-content: center;
+  padding: 1rem;
+}
+
+.topicos__lista__item a {
+  color: var(--cor-branco);
+}

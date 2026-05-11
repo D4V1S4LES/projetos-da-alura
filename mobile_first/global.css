@@ -2,6 +2,8 @@
 @import url(css/banner.css);
 @import url(css/carrosel.css);
 @import url(css/card.css);
+@import url(css/topicos.css);
+@import url(css/footer.css);
 
 :root {
   --cor-cinza-claro: #ebecee;
@@ -24,13 +26,13 @@
   border-right: 1px solid lightgray; */
 }
 
-main,
+/* main,
 header,
 footer {
   box-shadow:
     -1px 0px 8px lightgray,
     1px 0px 8px lightgray;
-}
+} */
 
 img {
   max-width: 100%;
