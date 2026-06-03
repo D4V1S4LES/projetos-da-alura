@@ -62,3 +62,6 @@
   border-bottom: 1px solid var(--cor-azul);
   transition: 0.3s;
 }
+
+@media screen and (min-width: 1024px) {
+}

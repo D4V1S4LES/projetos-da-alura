@@ -46,7 +46,7 @@
 }
 
 .footer__assinatura p {
-  border-top: 1px solid var(--cor-azul);
+  border-top: 1px solid #858585;
   padding: 1.5rem;
   background: var(--cor-branco);
 }
