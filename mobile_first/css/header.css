@@ -1,0 +1,56 @@
+.cabecalho {
+  background: var(--branco);
+  display: flex;
+  justify-content: space-between; /* Espaçamento do cabeçalho*/
+  align-items: center;
+  position: relative;
+}
+
+.cabecalho__menu-hamburguer {
+  width: 48px;
+  height: 48px;
+  background: url(../assets/Menu.svg) no-repeat center;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container__imagem {
+  padding: 0.5rem;
+}
+
+.lista-menu,
+.container__botao {
+  display: none;
+  background: var(--branco);
+}
+
+.container__botao:checked ~ .lista-menu {
+  display: block;
+  position: absolute;
+  top: 100%; /* top100% indica que ele ta posicionado 100% abaixo do cabeçalho, assim n precisa ficar acertando os pixels de altura */
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1rem;
+}
+
+.lista-menu__titulo {
+  color: var(--amarelo);
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.lista-menu__link {
+  font-size: 16px;
+  font-weight: regular;
+  font-family: "Poppins", sans-serif;
+  padding-right: 3rem;
+  color: var(--azul);
+  text-decoration: none;
+}
