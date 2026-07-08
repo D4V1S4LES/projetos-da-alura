@@ -32,6 +32,7 @@
   display: block;
   position: absolute;
   top: 100%; /* top100% indica que ele ta posicionado 100% abaixo do cabeçalho, assim n precisa ficar acertando os pixels de altura */
+  z-index: 1000;
 }
 
 .lista-menu__titulo,
