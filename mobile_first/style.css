@@ -1,6 +1,9 @@
 @import url(css/header.css);
 @import url(css/banner.css);
 @import url(css/carrosel.css);
+@import url(css/topicos.css);
+@import url(css/contato.css);
+@import url(css/footer.css);
 
 :root {
   --cor-de-fundo: #ebecee;
@@ -12,4 +15,8 @@
 
 body {
   background: var(--cor-de-fundo);
+}
+
+hr {
+  margin: 0;
 }

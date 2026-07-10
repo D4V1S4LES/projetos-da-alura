@@ -1,0 +1,38 @@
+.contato {
+  font-family: "poppins", sans-serif;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--branco);
+  color: var(--azul);
+}
+
+.contato__titulo {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contato__texto {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contato__pesquisa {
+  border-radius: 24px;
+  border: 1px solid var(--azul);
+  background: transparent;
+  padding: 1rem;
+  color: var(--azul);
+}
+
+.contato__pesquisa::placeholder {
+  color: var(--azul);
+  background: url(../assets/Email.svg) no-repeat;
+  font-family: "Popins", sans-serif;
+  background-position: left 1rem center;
+  background-size: 1.3rem;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 3rem;
+}

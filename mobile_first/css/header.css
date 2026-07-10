@@ -55,3 +55,21 @@
   color: var(--azul);
   text-decoration: none;
 }
+
+.container__titulo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  display: none;
+  padding-top: 1rem;
+}
+
+.container__titulo-negrito {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__titulo {
+    display: block;
+  }
+}
