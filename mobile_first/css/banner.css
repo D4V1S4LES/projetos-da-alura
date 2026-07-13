@@ -35,3 +35,19 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    padding: 6rem 2rem;
+  }
+  .banner__titulo {
+    font-size: 36px;
+  }
+  .banner__texto {
+    font-size: 16px;
+    padding: 1.5rem 0rem;
+  }
+  .banner__pesquisa {
+    max-width: 50%;
+  }
+}

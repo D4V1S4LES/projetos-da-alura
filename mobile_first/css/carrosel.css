@@ -83,3 +83,29 @@
 .descricao__estrelinhas {
   max-width: 50%;
 }
+
+@media screen and (min-width: 1024px) {
+  .carrosel__titulo {
+    font-size: 26px;
+    /* text-transform: uppercase; */
+    padding: 2rem 0rem;
+  }
+  .swiper-pagination {
+    margin: 2rem 0rem;
+  }
+  .swiper {
+    max-width: 80%;
+  }
+  .swiper-slide {
+    margin-right: 1rem;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    /* background: var(--azul); */
+    /* border-radius: 50%;
+    background: url(../assets/seta.svg) var(--azul) no-repeat;
+    background-position: 8px;
+    background-size: 2rem; */
+  }
+}
