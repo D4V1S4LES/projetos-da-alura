@@ -108,4 +108,9 @@
     background-position: 8px;
     background-size: 2rem; */
   }
+  .card {
+    justify-self: center;
+    max-width: 60%;
+    margin: 3rem 0rem;
+  }
 }
