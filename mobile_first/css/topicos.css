@@ -34,9 +34,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .topicos__lista {
-    /* max-width: 80%; */
-  }
   .topicos__item {
     padding: 2rem;
   }
@@ -50,5 +47,14 @@
   .topicos__lista {
     margin-bottom: 1rem;
     gap: 1.5rem;
+  }
+}
+/* 1728px */
+@media screen and (min-width: 1512px) {
+  .topicos__lista {
+    max-width: 40%;
+  }
+  .topicos {
+    padding: 3rem 0rem;
   }
 }

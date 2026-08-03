@@ -11,7 +11,8 @@
   --amarelo: #eb9b00;
   --azul: #002f52;
   --preto: #000000;
-  /* --azul: linear-gradient(97deg, #002f52 35%, #326589 165%); */
+  --cinza: #858585
+    /* --azul: linear-gradient(97deg, #002f52 35%, #326589 165%); */;
 }
 
 body {

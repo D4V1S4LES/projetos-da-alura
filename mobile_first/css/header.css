@@ -35,6 +35,14 @@
   z-index: 1000;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+  background: url(../assets/Menu\ Aberto.png) no-repeat center;
+}
+
+.container__botao:checked ~ .container__rotulo {
+  background: var(--azul);
+}
+
 .lista-menu__titulo,
 .lista-menu__item {
   padding: 1rem;
@@ -68,6 +76,35 @@
   font-weight: 700;
 }
 
+.opcoes__lista {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 85%;
+  background: var(--branco);
+  z-index: 1000;
+  /* gap: 2rem; */
+}
+
+.opcoes__lista-item {
+  padding: 1rem 3rem 1rem 2rem;
+}
+
+.opcoes__lista-link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: inherit;
+  font-size: 16px;
+}
+
+.opcoes__lista {
+  display: none;
+}
+
+.container__texto {
+  display: none;
+}
+
 .opcoes {
   display: none;
 }
@@ -76,31 +113,17 @@
   display: none;
 }
 
+.opcoes__item {
+  padding: 1rem 0.5rem;
+}
+
 .opcoes-botao:checked ~ .opcoes__lista {
   display: flex;
 }
 
-.opcoes__lista {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  background: var(--branco);
-  z-index: 1000;
-  padding: 1rem 3rem 1rem 2rem;
-  gap: 2rem;
-}
-
-.opcoes__lista-link {
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  color: var(--azul);
-  font-size: 16px;
-  /* padding: 2rem 4rem; */
-}
-
-.opcoes__lista {
-  display: none;
+.opcoes-botao:checked ~ .opcoes-rotulo > .opcoes__item {
+  background: var(--azul);
+  color: var(--branco);
 }
 
 @media screen and (min-width: 1024px) {
@@ -131,5 +154,29 @@
   }
   .container:last-of-type {
     gap: 1.5rem;
+  }
+  .opcoes__lista-item:hover {
+    background-color: var(--azul);
+    color: var(--branco);
+  }
+  .opcoes__lista-link:hover {
+    color: var(--branco);
+  }
+}
+/* 1728px */
+@media screen and (min-width: 1512px) {
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .container__texto {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: var(--preto);
+    display: block;
+  }
+  .opcoes {
+    margin-right: auto; /* preenche todo o espaço com margin automaticamente no caso jogando todo o conteudo o maximo possivel */
   }
 }
